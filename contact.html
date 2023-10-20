@@ -1,0 +1,46 @@
+<html>
+  <head> 
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav>
+      <p id="Names">Jeff Rybak</p>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="profile.html">Profile</a>
+			<a href="contact.html">Contact</a>
+    </nav>
+		<main class="flexcontainer">
+		<form id="contactForm" action="index.html">
+			<div class="inputGroup">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+			</div>
+			<div class="inputGroup">
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+			</div>
+			<div class="inputGroup">
+				<label for="phone">Phone:</label>
+				<input type="tel" id="phone" name="phone" required>
+			</div>
+			<div class="inputGroup">
+				<label>Contact Preferences:</label>
+				<div>
+					<input type="checkbox" id="contactEmail" name="contactPreferences">
+					<label for="contactEmail">Email</label>
+				</div>
+				<div>
+					<input type="checkbox" id="contactPhone" name="contactPreference">
+					<label for="contactPhone">Phone</label>
+				</div>
+			</div>
+			<div class="inputGroup">
+				<input type="submit" value="Submit">
+			</div>
+		</form>
+	</main>
+
+  </body>
+</html>

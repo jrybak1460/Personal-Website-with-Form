@@ -1,0 +1,101 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: darkorchid;
+    font-size: larger;
+}
+
+#Names{
+    font-size: x-large;
+    color: azure;
+}
+
+summary {
+    width: 75%;
+}
+
+body {
+    background-color: lightcyan;
+}
+section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: lightskyblue;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10%;
+    margin-top: 10px;
+}
+
+section > summary {
+    text-align: center;
+    background-color:lightgrey;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+li {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+section > figure {
+    display: inline-block;
+}
+
+@media (min-width: 700px) and (orientation: landscape) {
+    body {
+        background-color: gold;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: cornflowerblue;
+    }
+}
+
+.flexcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+    background-color:floralwhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contactForm {
+    background: steelblue;
+    padding: 5em;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+}
+
+.inputGroup {
+    background-color: azure;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2px;
+}
+
+.inputGroup label {
+    margin-bottom: 6px;
+}
+
+.inputGroup input[type=submit] {
+    cursor:pointer;
+    padding: 10px 20px;
+    border: 1;
+    border-radius: 20px;
+    background-color: lightgoldenrodyellow;
+}
